@@ -55,7 +55,7 @@ Requisitos del Sistema
 
     Plataforma: iOS 17.0 o superior.
 
-    Dispositivo: Optimizado para iPhone (soporta orientación vertical y horizontal según el módulo).
+    Dispositivo: Optimizado para iPhone
 
 Propósito Educativo
 
