@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		403BD1512ED51BBF00D1D6CC /* WelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BD1502ED51BBF00D1D6CC /* WelcomeScreenView.swift */; };
+		403BD1532ED51D0E00D1D6CC /* NewtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BD1522ED51D0E00D1D6CC /* NewtonView.swift */; };
+		403BD1562ED51FCA00D1D6CC /* PendulumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BD1552ED51FCA00D1D6CC /* PendulumView.swift */; };
+		403BD1582ED528ED00D1D6CC /* NewtonSimulationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BD1572ED528ED00D1D6CC /* NewtonSimulationModel.swift */; };
+		403BD15A2ED5293F00D1D6CC /* NewtonScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BD1592ED5293F00D1D6CC /* NewtonScene.swift */; };
+		403BD15E2ED53B0000D1D6CC /* PendulumSimulationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BD15D2ED53B0000D1D6CC /* PendulumSimulationModel.swift */; };
+		403BD1602ED53B5200D1D6CC /* PendulumScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BD15F2ED53B5200D1D6CC /* PendulumScene.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		403BD1332ED51A5500D1D6CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +37,13 @@
 		403BD1252ED51A5400D1D6CC /* SimuladorFisicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimuladorFisicas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403BD1322ED51A5500D1D6CC /* SimuladorFisicasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimuladorFisicasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403BD13C2ED51A5500D1D6CC /* SimuladorFisicasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimuladorFisicasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		403BD1502ED51BBF00D1D6CC /* WelcomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenView.swift; sourceTree = "<group>"; };
+		403BD1522ED51D0E00D1D6CC /* NewtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonView.swift; sourceTree = "<group>"; };
+		403BD1552ED51FCA00D1D6CC /* PendulumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumView.swift; sourceTree = "<group>"; };
+		403BD1572ED528ED00D1D6CC /* NewtonSimulationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonSimulationModel.swift; sourceTree = "<group>"; };
+		403BD1592ED5293F00D1D6CC /* NewtonScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewtonScene.swift; sourceTree = "<group>"; };
+		403BD15D2ED53B0000D1D6CC /* PendulumSimulationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumSimulationModel.swift; sourceTree = "<group>"; };
+		403BD15F2ED53B5200D1D6CC /* PendulumScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendulumScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +92,7 @@
 		403BD11C2ED51A5400D1D6CC = {
 			isa = PBXGroup;
 			children = (
-				403BD1272ED51A5400D1D6CC /* SimuladorFisicas */,
+				403BD14F2ED51B0F00D1D6CC /* Views */,
 				403BD1352ED51A5500D1D6CC /* SimuladorFisicasTests */,
 				403BD13F2ED51A5500D1D6CC /* SimuladorFisicasUITests */,
 				403BD1262ED51A5400D1D6CC /* Products */,
@@ -90,6 +107,21 @@
 				403BD13C2ED51A5500D1D6CC /* SimuladorFisicasUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		403BD14F2ED51B0F00D1D6CC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				403BD1272ED51A5400D1D6CC /* SimuladorFisicas */,
+				403BD1502ED51BBF00D1D6CC /* WelcomeScreenView.swift */,
+				403BD1522ED51D0E00D1D6CC /* NewtonView.swift */,
+				403BD1552ED51FCA00D1D6CC /* PendulumView.swift */,
+				403BD1572ED528ED00D1D6CC /* NewtonSimulationModel.swift */,
+				403BD1592ED5293F00D1D6CC /* NewtonScene.swift */,
+				403BD15D2ED53B0000D1D6CC /* PendulumSimulationModel.swift */,
+				403BD15F2ED53B5200D1D6CC /* PendulumScene.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +268,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403BD15E2ED53B0000D1D6CC /* PendulumSimulationModel.swift in Sources */,
+				403BD1562ED51FCA00D1D6CC /* PendulumView.swift in Sources */,
+				403BD1582ED528ED00D1D6CC /* NewtonSimulationModel.swift in Sources */,
+				403BD1602ED53B5200D1D6CC /* PendulumScene.swift in Sources */,
+				403BD15A2ED5293F00D1D6CC /* NewtonScene.swift in Sources */,
+				403BD1512ED51BBF00D1D6CC /* WelcomeScreenView.swift in Sources */,
+				403BD1532ED51D0E00D1D6CC /* NewtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
